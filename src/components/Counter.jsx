@@ -1,6 +1,6 @@
-import './UseState.css';
+import './Counter.css';
 
-const UseState = () => {
+const Counter = () => {
   return (
     <div className="state">
       <h1>UseState Component</h1>
@@ -17,4 +17,4 @@ const UseState = () => {
   );
 };
 
-export default UseState;
+export default Counter;
