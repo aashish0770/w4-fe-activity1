@@ -1,7 +1,13 @@
-import UseState from './components/Counter';
+import UseState from "./components/Counter";
+import Form from "./components/Form";
 
 function App() {
-  return <UseState />;
+  return (
+    <div className="app-container">
+      <UseState />
+      <Form />
+    </div>
+  );
 }
 
 export default App;
